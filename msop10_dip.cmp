@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Sat 17 Oct 2009 12:46:42 AM CEST
+
+BeginCmp
+TimeStamp = /4A8B5DB5;
+Reference = P1;
+ValeurCmp = DIP;
+IdModule  = 10DIP300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AD8F4F1;
+Reference = P2;
+ValeurCmp = MSOP;
+IdModule  = -MSOP10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AD8F5B1;
+Reference = P3;
+ValeurCmp = TSSOP;
+IdModule  = -TSSOP8;
+EndCmp
+
+EndListe
