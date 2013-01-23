@@ -1,4 +1,0 @@
-- auxiliary axis on top left pin
-- auxiliary axis for gerber/dirll files
-- suppress leading zeros
-- 2:4 format

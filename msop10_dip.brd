@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Wed 23 Jan 2013 01:19:23 PM CET
+PCBNEW-BOARD Version 2 date Wed 23 Jan 2013 07:37:02 PM CET
 
 # Created by Pcbnew(2013-01-21 BZR 3918)-testing
 
@@ -9,7 +9,7 @@ LayerCount 2
 EnabledLayers 10F08001
 Links 19
 NoConn 0
-Di 136.334499 95.059499 150.304501 112.76584
+Di 136.334499 95.059499 150.304501 106.489501
 Ndraw 42
 Ntrack 91
 Nzone 0
@@ -32,8 +32,8 @@ $EndSHEETDESCR
 
 $SETUP
 Layers 2
-Layer[0] Copper signal
-Layer[15] Component signal
+Layer[0] Back signal
+Layer[15] Front signal
 TrackWidth 0.2032
 TrackClearence 0.2032
 ZoneClearence 0.2032
@@ -57,11 +57,11 @@ TextModSize 1.524 1.524
 TextModWidth 0.3048
 PadSize 1.524 1.524
 PadDrill 1.016
-Pad2MaskClearance 0.2
+Pad2MaskClearance 0
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 138.2522 96.8756
 VisibleElements FFFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 100000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 100000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerber_files/))
 $EndSETUP
 
 $EQUIPOT
@@ -135,14 +135,14 @@ AddNet "/9"
 AddNet "/THERM"
 $EndNCLASS
 $MODULE 10DIP300
-Po 143.3322 100.6856 0 15 50FFD4B9 4A8B5DB5 ~~
+Po 143.3322 100.6856 0 15 51002C45 4A8B5DB5 ~~
 Li 10DIP300
 Cd Module Dil 10 pins, pads ronds
 Kw DIL
 Sc 4A8B5DB5
 AR /4A8B5DB5
 Op 0 0 0
-T0 -1.397 10.9728 1.524 1.143 0 0.28448 N I 21 N "P1"
+T0 -0.0762 0.0254 1.524 1.143 0 0.28448 N I 21 N "P1"
 T1 -5.0292 -0.7366 0.762 0.762 900 0.1905 N I 21 N "DIP"
 DS -5.08 1.397 -5.207 1.143 0.254 21
 DS -5.08 1.397 -4.953 1.143 0.254 21
