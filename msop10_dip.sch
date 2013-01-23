@@ -1,8 +1,36 @@
-EESchema Schematic File Version 2  date Sat 17 Oct 2009 12:10:40 PM CEST
-LIBS:power,/home/robert/Arduino/KiCAD/my_parts,/home/robert/Arduino/KiCAD/atmega8_168_328_DIP,/home/robert/Arduino/KiCAD/atmega8_168_328_TQFP,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./msop10_dip.cache
-EELAYER 24  0
+EESchema Schematic File Version 2  date Wed 23 Jan 2013 11:03:57 PM CET
+LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:valves
+LIBS:msop10_dip-cache
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
+encoding utf-8
 Sheet 1 1
 Title "MSOP10 / TSSOP8 Dip Adapter"
 Date "19 aug 2009"
